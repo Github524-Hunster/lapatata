@@ -16,3 +16,128 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+(function(){
+		var bsa_optimize=document.createElement('script');
+		bsa_optimize.type='text/javascript';
+		bsa_optimize.async=true;
+		bsa_optimize.src='https://cdn4.buysellads.net/pub/pastebin.js?'+(new Date()-new Date()%600000);
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa_optimize);
+	})();
+</script>
+
+    <form id="w0" class="js-create-form form-horizontal" action="/" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_csrf-frontend" value="PxcXOqIgj7jbgNqsEx1qRGf0FsDSD9-NR_IHq0miBTJIUVZ9yBjuzb_ZoMJaJQsiP4Z8q4N-puw2xGqdf5RAWw==">
+    <div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div>
+    <div class="content__title -no-border">
+        New Paste
+        
+        
+        <div class="post-form__live-code">
+            <div class="toggle">
+                <span class="toggle__text">Syntax Highlighting</span>
+                <div class="toggle__control">
+                    <input id="paste-raw-on" type="checkbox" class="js-live-code-highlight">
+                    <label for="paste-raw-on"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="form-group field-postform-text required">
+
+
+<textarea id="postform-text" class="textarea -form js-paste-code" name="PostForm[text]" autofocus aria-required="true"></textarea>
+</div>
+    <div class="content__title -paste">Optional Paste Settings</div>
+
+    <div class="post-form__bottom">
+        <div class="post-form__left">
+
+            <div class="form-group field-postform-format">
+<label class="control-label col-sm-3" for="postform-format">Syntax Highlighting:</label>
+<div class="col-sm-9 field-wrapper">
+<div class="kv-plugin-loading loading-postform-format">&nbsp;</div><select id="postform-format" class="form-control" name="PostForm[format]" data-s2-options="s2options_7ebc6538" data-krajee-select2="select2_662ea3af" style="width: 1px; height: 1px; visibility: hidden;">
+<option value="1" data-language="text">None</option>
+<optgroup label="------ POPULAR LANGUAGES -------">
+<option value="8" data-language="bash">Bash</option>
+<option value="9" data-language="c">C</option>
+<option value="14" data-language="csharp">C#</option>
+<option value="13" data-language="cpp">C++</option>
+<option value="16" data-language="css">CSS</option>
+<option value="25" data-language="html4strict">HTML</option>
+<option value="255" data-language="json">JSON</option>
+<option value="27" data-language="java">Java</option>
+<option value="28" data-language="javascript">JavaScript</option>
+<option value="30" data-language="lua">Lua</option>
+<option value="267" disabled data-language="markdown">Markdown (PRO members only)</option>
+<option value="35" data-language="objc">Objective C</option>
+<option value="41" data-language="php">PHP</option>
+<option value="40" data-language="perl">Perl</option>
+<option value="42" data-language="python">Python</option>
+<option value="45" data-language="ruby">Ruby</option>
+<option value="256" data-language="swift">Swift</option>
+</optgroup>
+<optgroup label="------ ALL LANGUAGES -------">
+<option value="142" data-language="4cs">4CS</option>
+<option value="143" data-language="6502acme">6502 ACME Cross Assembler</option>
+<option value="144" data-language="6502kickass">6502 Kick Assembler</option>
+<option value="145" data-language="6502tasm">6502 TASM/64TASS</option>
+<option value="73" data-language="abap">ABAP</option>
+<option value="236" data-language="aimms">AIMMS</option>
+<option value="147" data-language="algol68">ALGOL 68</option>
+<option value="75" data-language="apt_sources">APT Sources</option>
+<option value="217" data-language="arm">ARM</option>
+<option value="6" data-language="asm">ASM (NASM)</option>
+<option value="7" data-language="asp">ASP</option>
+<option value="2" data-language="actionscript">ActionScript</option>
+<option value="74" data-language="actionscript3">ActionScript 3</option>
+<option value="3" data-language="ada">Ada</option>
+<option value="4" data-language="apache">Apache Log</option>
+<option value="5" data-language="applescript">AppleScript</option>
+<option value="270" data-language="arduino">Arduino</option>
+<option value="218" data-language="asymptote">Asymptote</option>
+<option value="54" data-language="autoit">AutoIt</option>
+<option value="149" data-language="autohotkey">Autohotkey</option>
+<option value="76" data-language="avisynth">Avisynth</option>
+<option value="150" data-language="awk">Awk</option>
+<option value="198" data-language="bascomavr">BASCOM AVR</option>
+<option value="56" data-language="bnf">BNF</option>
+<option value="80" data-language="boo">BOO</option>
+<option value="8" data-language="bash">Bash</option>
+<option value="77" data-language="basic4gl">Basic4GL</option>
+<option value="20" data-language="dos">Batch</option>
+<option value="78" data-language="bibtex">BibTeX</option>
+<option value="55" data-language="blitzbasic">Blitz Basic</option>
+<option value="259" data-language="b3d">Blitz3D</option>
+<option value="260" data-language="bmx">BlitzMax</option>
+<option value="79" data-language="bf">BrainFuck</option>
+<option value="9" data-language="c">C</option>
+<option value="252" data-language="c_winapi">C (WinAPI)</option>
+<option value="82" data-language="cil">C Intermediate Language</option>
+<option value="10" data-language="c_mac">C for Macs</option>
+<option value="14" data-language="csharp">C#</option>
+<option value="13" data-language="cpp">C++</option>
+<option value="253" data-language="cpp-winapi">C++ (WinAPI)</option>
+<option value="154" data-language="cpp-qt">C++ (with Qt extensions)</option>
+<option value="199" data-language="c_loadrunner">C: Loadrunner</option>
+<option value="11" data-language="caddcl">CAD DCL</option>
+<option value="12" data-language="cadlisp">CAD Lisp</option>
+<option value="81" data-language="cfdg">CFDG</option>
+<option value="83" data-language="cmake">CMake</option>
+<option value="84" data-language="cobol">COBOL</option>
+<option value="16" data-language="css">CSS</option>
+<option value="269" data-language="ceylon">Ceylon</option>
+<option value="152" data-language="chaiscript">ChaiScript</option>
+<option value="237" data-language="chapel">Chapel</option>
+<option value="153" data-language="clojure">Clojure</option>
+<option value="99" data-language="klonec">Clone C</option>
+<option value="100" data-language="klonecpp">Clone C++</option>
+<option value="200" data-language="coffeescript">CoffeeScript</option>
+<option value="15" data-language="cfm">ColdFusion</option>
+<option value="151" data-language="cuesheet">Cuesheet</option>
+<option value="17" data-language="d">D</option>
+<option value="219" data-language="dcl">DCL</option>
+<option value="220" data-language="dcpu16">DCPU-16</option>
+<option value="85" data-language="dcs">DCS</option>
+<option value="86" data-language="div">DIV</option>
